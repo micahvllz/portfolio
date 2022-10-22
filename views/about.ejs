@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('partials/head') %>
+  <body>
+    <%- include('partials/navbar') %>
+    <main>
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="/img/programmer.jpg"
+              class="img-fluid mx-auto"
+              width="100%"
+              height="100%"
+            />
+
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h1>A Programmer.</h1>
+                <p>Languages: COBOL, C, Python, and Java.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/img/web-developer.jpg"
+              class="img-fluid mx-auto"
+              width="100%"
+              height="100%"
+            />
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>A Web Developer.</h1>
+                <p>Tech Stack: HTML, CSS, JavaScript, PHP, AJAX, and NodeJS.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/img/designer.jpg"
+              class="img-fluid mx-auto"
+              width="100%"
+              height="100%"
+            />
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h1>A UI/UX Designer.</h1>
+                <p>Tools: Canva, Adobe Photoshop, and Figma.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="container marketing">
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+          <div class="col-lg-4">
+            <img
+              src="/img/pms.png"
+              class="img-fluid mx-auto rounded-circle"
+              width="140"
+              height="140"
+            />
+            <h2 class="fw-normal">PMS</h2>
+            <p>
+              A Payroll Management System that helps the payroll manager to
+              calculate the employees' salaries and track their basic pay,
+              overtime pay, deductions, and net pay.
+            </p>
+            <p>
+              <a
+                class="btn btn-secondary"
+                href="https://github.com/micahvllz/Payroll-Management-System"
+                >View details &raquo;</a
+              >
+            </p>
+          </div>
+          <!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img
+              src="/img/rxpress.png"
+              class="img-fluid mx-auto rounded-circle"
+              width="120"
+              height="120"
+            />
+            <h2 class="fw-normal">RxPress</h2>
+            <p>
+              RxPress is a multifunctional platform providing up-to-date list of
+              medicines with its corresponding medicinal information for the
+              customer's easy purchase.
+            </p>
+            <p>
+              <a
+                class="btn btn-secondary"
+                href="https://github.com/polekstulod/rxpress-web"
+                >View details &raquo;</a
+              >
+            </p>
+          </div>
+          <!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img
+              src="/img/foodtrip.png"
+              class="img-fluid mx-auto rounded-circle"
+              width="140"
+              height="140"
+            />
+            <h2 class="fw-normal">FoodTrip</h2>
+            <p>
+              FoodTrip is a food ordering application where anyone can easily
+              order and purchase different food dishes from many types of
+              restaurants with few simple clicks.
+            </p>
+            <p>
+              <a
+                class="btn btn-secondary"
+                href="https://github.com/micahvllz/foodtrip-web"
+                >View details &raquo;</a
+              >
+            </p>
+          </div>
+          <!-- /.col-lg-4 -->
+        </div>
+        <!-- /.row -->
+
+        <!-- START THE FEATURETTES -->
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">
+              Educational <span class="text-muted">Background</span>
+            </h2>
+            <ul>
+              <li>
+                Polytechnic University of the Philippines - Quezon City Branch
+              </li>
+              <ul class="mb-2">
+                <li>
+                  Undergraduate Level
+                  <span class="fw-semibold text-dark">(2019 - Present)</span>
+                  <br />
+                  <b>Bachelor of Science in Information Technology</b>
+                </li>
+              </ul>
+              <li>
+                Quezon City Science High School - Bago Bantay, Quezon City
+              </li>
+              <ul class="mb-2">
+                <li class="mb-1">
+                  Senior High School
+                  <span class="fw-semibold text-dark">(2017 - 2019)</span>
+                  <br />
+                  <b>Science, Technology, Engineering and Mathematics Strand</b>
+                </li>
+                <li>
+                  Junior High School
+                  <span class="fw-semibold text-dark">(2013 - 2017)</span>
+                </li>
+              </ul>
+              <li>National College of Business and Arts - Fairview Campus</li>
+              <ul class="mb-2">
+                <li>
+                  Elementary
+                  <span class="fw-semibold text-dark">(2007 - 2013)</span>
+                </li>
+              </ul>
+              <li>
+                Diliman Preparatory School - Commonwealth Avenue, Quezon City
+              </li>
+              <ul class="mb-2">
+                <li>
+                  Kindergarten
+                  <span class="fw-semibold text-dark">(2004 - 2007)</span>
+                </li>
+              </ul>
+            </ul>
+          </div>
+          <div class="col-md-5">
+            <img
+              src="/img/educ-bg.jpg"
+              class="img-fluid mx-auto"
+              width="500"
+              height="500"
+            />
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading fw-normal lh-1">
+              Research & Development <span class="text-muted">Experience</span>
+            </h2>
+            <ul>
+              <li>
+                <span class="fs-5 fw-semibold text-dark"
+                  >myPUPQC : A Student Self Service Portal</span
+                >
+                <span>(2022 - Present)</span>
+              </li>
+              <ul class="mb-2">
+                <li class="mb-1">
+                  <b>Scrum Master</b> and <b>Front-End Developer</b>
+                </li>
+                <li>
+                  CodeIgniter is the framework used for routing and rendering
+                  the pages. As for customizations and styles, the SASS and Gulp
+                  are used. Connecting the Front-End to the Back-End is done by
+                  using AJAX, jQuery, Express and Sequelize.
+                </li>
+              </ul>
+              <li>
+                <span class="fs-5 fw-semibold text-dark"
+                  >FoodTrip : A Food Ordering Web Application</span
+                >
+                <span>(2022)</span>
+              </li>
+              <ul class="mb-2">
+                <li class="mb-1"><b>Front-End Developer</b></li>
+                <li>
+                  The Framework used for the Front-End is CodeIgniter3 and the
+                  template used is Velzon integrated with the Bootstrap Library.
+                  AJAX is used in passing the data to the API synced real-time
+                  with the database.
+                </li>
+              </ul>
+              <li>
+                <span class="fs-5 fw-semibold text-dark"
+                  >RxPress : An Online Medical Store</span
+                >
+                <span>(2022)</span>
+              </li>
+              <ul class="mb-2">
+                <li class="mb-1"><b>Full-Stack Developer</b></li>
+                <li>
+                  Developed with the use of Pure PHP only. The Database used is
+                  MySQL and Stored Procedures, User Defined Functions and Views
+                  are used for querying and manipulating of data.
+                </li>
+              </ul>
+            </ul>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img
+              src="/img/landing-page.png"
+              class="pt-5 img-fluid mx-auto"
+              width="500"
+              height="500"
+            />
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <!-- /END THE FEATURETTES -->
+      </div>
+      <!-- /.container -->
+    </main>
+    <!-- FOOTER -->
+    <%- include('partials/footer') %>
+  </body>
+</html>
